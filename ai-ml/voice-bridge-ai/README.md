@@ -254,7 +254,7 @@ This project is licensed under the MIT License - see the [LICENSE](../../LICENSE
 
 - GitHub: [@djoga98](https://github.com/djoga98)
 - LinkedIn: [@djogicslavko](https://linkedin.com/in/djogicslavko)
-- TikTok: [@djoga98](https://tiktok.com/@djoga98)
+- TikTok: [@tensorix](https://tiktok.com/@tensorix)
 
 ## 🙏 Acknowledgments
 

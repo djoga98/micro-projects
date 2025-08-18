@@ -18,11 +18,13 @@ A modern, futuristic color palette extraction tool built with Python that uses m
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 ```bash
 pip install opencv-python scikit-learn pillow tkinter numpy
 ```
 
 ### Installation
+
 ```bash
 git clone https://github.com/djoga98/micro-projects.git
 cd micro-projects/ai-ml/color-palette-ai
@@ -74,11 +76,11 @@ IMAGE_RESIZE_WIDTH = 150
 
 ## 📸 Screenshots
 
-| Feature | Screenshot |
-|---------|------------|
-| Main Interface | ![Main](image.png) |
+| Feature          | Screenshot              |
+| ---------------- | ----------------------- |
+| Main Interface   | ![Main](image.png)      |
 | Color Extraction | ![Extract](image-1.png) |
-| Palette Display | ![Palette](image-2.png) |
+| Palette Display  | ![Palette](image-2.png) |
 
 ## 📝 Future Enhancements
 
@@ -97,9 +99,10 @@ This project is licensed under the MIT License - see the [LICENSE](../../LICENSE
 ## 👨‍💻 Author
 
 **Slavko Đogić**
+
 - GitHub: [@djoga98](https://github.com/djoga98)
 - LinkedIn: [@djogicslavko](https://linkedin.com/in/djogicslavko)
-- TikTok: [@djoga98](https://tiktok.com/@djoga98)
+- TikTok: [@tensorix](https://tiktok.com/@tensorix)
 
 ## 🙏 Acknowledgments
 

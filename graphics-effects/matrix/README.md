@@ -1,6 +1,6 @@
 # 🔴 Matrix Digital Rain
 
-> *"Wake up, Neo... The Matrix has you."*
+> _"Wake up, Neo... The Matrix has you."_
 
 A faithful recreation of the iconic digital rain effect from The Matrix movie, featuring both terminal and graphical implementations built with Python.
 
@@ -9,11 +9,13 @@ A faithful recreation of the iconic digital rain effect from The Matrix movie, f
 ## ✨ Features
 
 ### 🖥️ **Dual Interface**
+
 - **CLI Mode** - Authentic terminal-based matrix rain
 - **GUI Mode** - High-quality graphical simulation with Pygame
 - **Interactive Launcher** - Choose your preferred experience
 
 ### 🎨 **Visual Effects**
+
 - **Dynamic Character Generation** - Randomized matrix characters
 - **Realistic Trails** - Varying brightness and fade effects
 - **Multiple Green Shades** - True-to-movie color palette
@@ -21,6 +23,7 @@ A faithful recreation of the iconic digital rain effect from The Matrix movie, f
 - **Smooth Animation** - 60 FPS rendering in GUI mode
 
 ### ⚙️ **Customizable**
+
 - Adjustable drop speeds and trail lengths
 - Configurable spawn rates and character sets
 - Responsive to different terminal/window sizes
@@ -29,11 +32,13 @@ A faithful recreation of the iconic digital rain effect from The Matrix movie, f
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 ```bash
 pip install pygame
 ```
 
 ### Installation
+
 ```bash
 git clone https://github.com/djoga98/micro-projects.git
 cd micro-projects/graphics-effects/matrix
@@ -41,6 +46,7 @@ python main.py
 ```
 
 ### Direct Mode Access
+
 ```bash
 # CLI only
 python cli.py
@@ -51,22 +57,23 @@ python gui.py
 
 ## 🛠️ Tech Stack
 
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **CLI Mode** | Pure Python + ANSI | Terminal-based simulation |
-| **GUI Mode** | Pygame | High-performance graphics |
-| **Launcher** | subprocess + pathlib | User interface management |
-| **Effects** | Custom algorithms | Realistic matrix animation |
+| Component    | Technology           | Purpose                    |
+| ------------ | -------------------- | -------------------------- |
+| **CLI Mode** | Pure Python + ANSI   | Terminal-based simulation  |
+| **GUI Mode** | Pygame               | High-performance graphics  |
+| **Launcher** | subprocess + pathlib | User interface management  |
+| **Effects**  | Custom algorithms    | Realistic matrix animation |
 
 ## 📖 How It Works
 
 ### CLI Implementation
+
 ```python
 class MatrixDrop:
     def __init__(self, x, y, length):
         self.chars = [random.choice(MATRIX_CHARS) for _ in range(length)]
         self.speed = random.uniform(0.8, 1.5)
-    
+
     def update(self):
         self.y += self.speed
         # Glitch effect - randomly change characters
@@ -75,6 +82,7 @@ class MatrixDrop:
 ```
 
 ### GUI Implementation
+
 - **Object-oriented design** with separate Drop and Simulation classes
 - **Optimized rendering** with brightness-based color selection
 - **Memory management** with automatic cleanup of off-screen drops
@@ -83,10 +91,12 @@ class MatrixDrop:
 ## 🎮 Controls
 
 ### CLI Mode
+
 - `Ctrl+C` - Return to main menu
 - Automatically adapts to terminal size
 
 ### GUI Mode
+
 - `ESC` - Exit to main menu
 - `Close Window` - Exit application
 - Fullscreen experience at 1200x800 resolution
@@ -94,6 +104,7 @@ class MatrixDrop:
 ## 🔧 Configuration
 
 ### CLI Settings (`cli.py`)
+
 ```python
 MATRIX_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?"
 DROP_SPEED = 0.05          # Animation speed
@@ -103,6 +114,7 @@ SPAWN_PROBABILITY = 0.3    # New drop frequency
 ```
 
 ### GUI Settings (`gui.py`)
+
 ```python
 WINDOW_WIDTH = 1200        # Display width
 WINDOW_HEIGHT = 800        # Display height
@@ -125,18 +137,21 @@ matrix/
 ## 🎯 Usage Examples
 
 ### Basic Launch
+
 ```bash
 python main.py
 # Select option 1 for CLI or 2 for GUI
 ```
 
 ### CLI Direct
+
 ```bash
 python cli.py
 # Immediate terminal matrix effect
 ```
 
 ### GUI Direct
+
 ```bash
 python gui.py
 # Immediate graphical matrix effect
@@ -144,15 +159,16 @@ python gui.py
 
 ## 📸 Screenshots
 
-| Mode | Preview |
-|------|---------|
+| Mode         | Preview                  |
+| ------------ | ------------------------ |
 | **Launcher** | ![Launcher](image-2.png) |
-| **CLI Mode** | ![CLI](image-1.png) |
-| **GUI Mode** | ![GUI](image.png) |
+| **CLI Mode** | ![CLI](image-1.png)      |
+| **GUI Mode** | ![GUI](image.png)        |
 
 ## 🎨 Customization Ideas
 
 ### Character Sets
+
 ```python
 # Japanese Matrix style
 MATRIX_CHARS = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
@@ -165,6 +181,7 @@ MATRIX_CHARS = "!@#$%^&*()_+-=[]{}|;:,.<>?"
 ```
 
 ### Color Schemes
+
 ```python
 # Blue Matrix
 GREEN_COLORS = [(0, 0, 100), (0, 0, 150), (0, 0, 255), (150, 150, 255)]
@@ -191,9 +208,10 @@ This project is licensed under the MIT License - see the [LICENSE](../../LICENSE
 ## 👨‍💻 Author
 
 **Slavko Đogić**
+
 - GitHub: [@djoga98](https://github.com/djoga98)
 - LinkedIn: [@djogicslavko](https://linkedin.com/in/djogicslavko)
-- TikTok: [@djoga98](https://tiktok.com/@djoga98)
+- TikTok: [@tensorix](https://tiktok.com/@tensorix)
 
 ## 🙏 Acknowledgments
 
@@ -208,4 +226,4 @@ If this project helped you understand graphics programming or just brought back 
 
 ---
 
-**Remember:** *There is no spoon.* 🥄
+**Remember:** _There is no spoon._ 🥄

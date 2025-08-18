@@ -360,6 +360,14 @@ class AdvancedParticle(Particle):
 
 This project is licensed under the MIT License - see the [LICENSE](../../LICENSE) file for details.
 
+## 👨‍💻 Author
+
+**Slavko Đogić**
+
+- GitHub: [@djoga98](https://github.com/djoga98)
+- LinkedIn: [@djogicslavko](https://linkedin.com/in/djogicslavko)
+- TikTok: [@tensorix](https://tiktok.com/@tensorix)
+
 ## 🙏 Acknowledgments
 
 - **Pygame Community** - Excellent graphics library and community support

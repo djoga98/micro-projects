@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+pyaudio
+deep-translator
+librosa
+numpy
+accelerate
+safetensors
+hf_xet
+pygame
